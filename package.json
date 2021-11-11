@@ -9,6 +9,7 @@
   },
   "scripts": {
     "start-bc": "NODE_ENV=test nodemon src/simple_bc",
+    "start-bc-proof": "NODE_ENV=test nodemon src/bc_proof.ts",
     "test": "jest --detectOpenHandles"
   },
   "devDependencies": {
