@@ -1,0 +1,13 @@
+app_mongodb_url=mongodb://127.0.0.1:27017/nftBlockchainService
+app_port=3005
+
+app_log_level=info
+
+app_eos_endpoint=http://localhost:8888
+app_eos_chainId=f16b1833c747c43682f4386fca9cbb327929334a762755ebec17f6f23c9b8a12
+app_private_key=5JLA28jodzEmhdgGsdC6s8zkWNBTKmNtxB9RywHoKUQ6FpAmRMG
+app_atomic_asset_contract_name=atomicassets
+app_atomic_pack_contract_name=atomicassets
+app_eos_acccount_name=atomicassets
+
+app_demux_start_block=0
