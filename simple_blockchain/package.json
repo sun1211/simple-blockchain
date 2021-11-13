@@ -8,8 +8,9 @@
     "node-fetch": "2.6.1"
   },
   "scripts": {
-    "start-bc": "NODE_ENV=test nodemon src/simple_bc",
+    "start-bc": "NODE_ENV=test nodemon src/simple_bc.ts",
     "start-bc-proof": "NODE_ENV=test nodemon src/bc_proof.ts",
+    "start-bc-tran": "NODE_ENV=test nodemon src/bc_transaction.ts",
     "test": "jest --detectOpenHandles"
   },
   "devDependencies": {
